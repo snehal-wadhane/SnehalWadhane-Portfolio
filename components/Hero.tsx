@@ -1,8 +1,8 @@
 "use client";
 import Image from "next/image";
 import Link from "next/link";
-import { Instagram, Hash, Globe } from "lucide-react";
-import { Particles } from "./ui/Particles";
+// import { Instagram, Hash, Globe } from "lucide-react";
+
 import {
   Bungee_Hairline, //decent
   Fascinate, //get try + -
