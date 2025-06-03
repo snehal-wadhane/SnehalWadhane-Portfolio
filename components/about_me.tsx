@@ -124,7 +124,7 @@ export default function AboutSection() {
                 className="overflow-hidden rounded-2xl bg-gradient-to-br from-purple-900/20 to-transparent p-0 backdrop-blur-sm"
               >
                 <Image
-                  src="/snehal.png"
+                  src="snehal.png"
                   alt="Snehal Wadhane"
                   width={500}
                   height={500}
