@@ -78,13 +78,8 @@ jobs:
       - name: Upload artifact
         uses: actions/upload-pages-artifact@v3
         with:
-          path: ./dist
-      - name: Check files after build
-  run: |
-    echo "Listing root folder:"
-    ls -la
-    echo "Listing dist folder:"
-    ls -la dist || echo "dist folder not found"
+          path: out
+    
 
 
   # Deployment job
