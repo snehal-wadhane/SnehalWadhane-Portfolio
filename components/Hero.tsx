@@ -34,7 +34,7 @@ const Hero = () => {
           objectFit="cover"
           priority
           className="opacity-90"
-        />
+       unoptimized />
         <div className="absolute inset-0 bg-gradient-to-b from-[#2d1b69]/60 via-[#1a103f]/40 to-transparent"></div>
       </div>
       {/* Particles Effect */}
