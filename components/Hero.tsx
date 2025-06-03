@@ -28,7 +28,7 @@ const Hero = () => {
       {/* Background Image with Enhanced Gradient Overlay */}
      <div style={{ position: 'relative', width: '100%', height: '400px' }}>
   <Image
-    src="/mountain_landscape9_generated.jpg"
+    src="/SnehalWadhane-Portfolio/mountain_landscape9_generated.jpg"
     alt="Mountain background"
     layout="fill"
     objectFit="cover"
