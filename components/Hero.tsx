@@ -26,15 +26,17 @@ const Hero = () => {
   return (
     <div className="relative w-full min-h-screen overflow-hidden">
       {/* Background Image with Enhanced Gradient Overlay */}
-      <div className="absolute inset-0 w-full h-full">
-        <Image
-          src="/mountain_landscape9_generated.jpg"
-          alt="Mountain background"
-          layout="fill"
-          objectFit="cover"
-          priority
-          className="opacity-90"
-       unoptimized />
+     <div style={{ position: 'relative', width: '100%', height: '400px' }}>
+  <Image
+    src="/mountain_landscape9_generated.jpg"
+    alt="Mountain background"
+    layout="fill"
+    objectFit="cover"
+    priority
+    className="opacity-90"
+    unoptimized
+  />
+
         <div className="absolute inset-0 bg-gradient-to-b from-[#2d1b69]/60 via-[#1a103f]/40 to-transparent"></div>
       </div>
       {/* Particles Effect */}
