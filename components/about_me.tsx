@@ -1,12 +1,10 @@
 'use client'
-
-import React, { useState } from 'react'
 import { motion } from 'framer-motion'
 import { useInView } from 'react-intersection-observer'
 import { Syncopate, Rajdhani } from 'next/font/google'
 import { Code, Sparkles, ArrowUpRight } from 'lucide-react'
 import Image from 'next/image'
-
+import Link from "next/link";
 const syncopate = Syncopate({
   weight: '400',
   subsets: ['latin'],
@@ -95,20 +93,20 @@ export default function AboutSection() {
               transition={{ delay: 0.8 }}
               className="flex flex-wrap gap-4"
             >
-              <a
+              <Link
                 href="https://www.linkedin.com/in/snehalwadhane/"
                 className="group inline-flex items-center gap-2 rounded-full bg-[#eee8aa] px-6 py-3 text-sm font-semibold text-[#2d2a4a] transition-all hover:bg-[#927898]"
               >
                 Connect on LinkedIn
                 <ArrowUpRight className="h-4 w-4 transition-transform group-hover:translate-x-1 group-hover:-translate-y-1" />
-              </a>
-              <a
+              </Link>
+              <Link
                 href="https://github.com/snehal-wadhane"
                 className="group inline-flex items-center gap-2 rounded-full border border-gray-600 px-6 py-3 text-sm font-semibold text-[#eee8aa] transition-all hover:border-[#927898] hover:text-[#927898]"
               >
                 View Projects
                 <Sparkles className="h-4 w-4 transition-transform group-hover:rotate-12" />
-              </a>
+              </Link>
             </motion.div>
           </motion.div>
 

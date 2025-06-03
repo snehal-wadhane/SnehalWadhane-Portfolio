@@ -1,27 +1,12 @@
 "use client";
 import Image from "next/image";
-import Link from "next/link";
-// import { Instagram, Hash, Globe } from "lucide-react";
 
 import {
-  Bungee_Hairline, //decent
-  Fascinate, //get try + -
-  Stalinist_One, //try +
-  Plaster, //try  +
-  Chokokutai, //give -
-  Julius_Sans_One,//for decent one
+
   Syncopate,//decent
   Hachi_Maru_Pop,//cute one 2nd
-  Limelight, //best  +  for wadhane
-  MuseoModerno,//decent
-  Sankofa_Display, //best -
-  Nova_Square,//2nd 
   Ruslan_Display, //best  +
-  Megrim, //best -1    ==wadhane
-  Saira_Stencil_One, // -
-  Kablammo, //can try  cat vala
 } from "next/font/google";
-import { GoArrowUpRight } from "react-icons/go";
 
 
 const roboto = Ruslan_Display({
@@ -36,10 +21,7 @@ const butt = Hachi_Maru_Pop({
   weight: "400",
   subsets: ["latin"],
 });
-const butt1 = Julius_Sans_One({
-  weight: "400",
-  subsets: ["latin"],
-});
+
 const Hero = () => {
   return (
     <div className="relative w-full min-h-screen overflow-hidden">

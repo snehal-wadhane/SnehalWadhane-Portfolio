@@ -8,9 +8,9 @@ const nextConfig: NextConfig = {
   },
   /* config options here */
 };
-module.exports = {
-  eslint: {
-    ignoreDuringBuilds: true, // Not recommended for production
-  },
-}
+// module.exports = {
+//   eslint: {
+//     ignoreDuringBuilds: true, // Not recommended for production
+//   },
+// }
 export default nextConfig;

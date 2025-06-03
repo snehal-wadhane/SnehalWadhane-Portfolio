@@ -2,7 +2,6 @@ import About from "@/components/about_me";
 import Hero from "@/components/Hero";
 import Footer from "@/components/myfooter";
 import Navbar from "@/components/navbar";
-import TextMask from "@/components/test";
 
 export default function Home() {
   return (
